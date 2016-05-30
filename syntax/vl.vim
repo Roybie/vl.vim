@@ -7,7 +7,7 @@ if exists("b:current_syntax")
 	finish
 endif
 
-syn match vlAddress	/'\w/
+syn match vlAddress	/['`]\w/
 syn region vlComment	start=/\$/	skip=/\\\$/	end=/\$/
 syn region vlString	matchgroup=Keyword start="i"	skip=/\\;/	end=";"
 
