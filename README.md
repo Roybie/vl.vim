@@ -5,7 +5,7 @@ Vim configuration for VL - https://github.com/Roybie/VL-interpreter
 
 ### Using [Vundle][v]
 
-1. Add `Plugin 'rust-lang/rust.vim'` to `~/.vimrc`
+1. Add `Plugin 'benbrunton/vl.vim'` to `~/.vimrc`
 2. `vim +PluginInstall +qall`
 
 [v]: https://github.com/gmarik/vundle
